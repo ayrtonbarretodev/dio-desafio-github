@@ -1,69 +1,66 @@
 # Introdução ao Git e GitHub
 
-**Git** → sistema de versionamento de código distribuído.
+Git → sistema de versionamento de código distribuído.
 
-O Git é **Comand Line Interface**
+O Git é Comand Line Interface
 
-**Comandos Windows**
+Comandos Windows
 
-cd → navega entre as pastas
+  cd → navega entre as pastas
 
-dir → lista o diretório
+  dir → lista o diretório
 
-mkdir → cria pasta
+  mkdir → cria pasta
 
-del/rmdir → del é para arquivos - rmdir é para diretórios
+  del/rmdir → del é para arquivos - rmdir é para diretórios
 
-cls → limpa tela terminal
+  cls → limpa tela terminal
 
-**Comandos Unix**
+Comandos Unix
 
-cd
+  cd
 
-ls
+  ls
 
-mkdir
+  mkdir
 
-rm -rf
+  rm -rf
 
-clear → limpa tela terminal
+  clear → limpa tela terminal
 
-cd .. → volta um nível
+  cd .. → volta um nível
 
-**Entendendo como o Git funciona por baixo dos panos**
+Entendendo como o Git funciona por baixo dos panos
 
-Utiliza a criptografia SHA-1.
+  Utiliza a criptografia SHA-1.
 
-Objetos Internos do Git
+  Objetos Internos do Git
 
-Blobs
+    Blobs
 
-Trees
+    Trees
 
-Commits
+    Commits
 
-Chave SSH e Token
+  Chave SSH e Token
 
-Chave SSH → forma de estabelecer conexão segura e encriptada entre duas máquinas.
+  Chave SSH → forma de estabelecer conexão segura e encriptada entre duas máquinas.
 
-Tem uma chave pública e uma chave privada
+  Tem uma chave pública e uma chave privada
 
-**Untracked** → Git ainda não tem ciência dos arquivos
+Untracked → Git ainda não tem ciência dos arquivos
 
-**Tracked** → Git já tem conhecimento dos arquivos
+Tracked → Git já tem conhecimento dos arquivos
 
 Unmodified
-
-Arquivo dentro do repositório do git que ainda não sofreu modificação
+  Arquivo dentro do repositório do git que ainda não sofreu modificação
 
 Modified
-
-Arquivo dentro do repositório do git que já sofreu modificação
+  Arquivo dentro do repositório do git que já sofreu modificação
 
 Staged
+  Arquivo está preparado para o commit
 
-Arquivo está preparado para o commit
+Exemplo 1: Quando eu insiro um "git add" o arquivo está indo de Unmodified p/ Staged ou de Modified p/ Staged.
 
-**Exemplo 1**: Quando eu insiro um "git add" o arquivo está indo de Unmodified p/ Staged ou de Modified p/ Staged.
-
-**Exemplo 2**: Quando eu insiro um "git commit" o arquivo irá de Staged p/ ser salvo no repositório.
+Exemplo 2: Quando eu insiro um "git commit" o arquivo irá de Staged p/ ser salvo no repositório.
